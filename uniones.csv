@@ -1,0 +1,15 @@
+persona_a,persona_b
+1,2           # progenitores originales (OK)
+3,4           # hermanos directos â†’ no permitido
+5,6           # pareja original descendiente de 3 y 4 â†’ no permitido
+9,10          # hijos de 5 y 6 â†’ hermanos â†’ no permitido
+13,14         # descendientes de ramas separadas pero con ancestro comÃºn (3 y 4) â†’ no permitido (primos)
+15,16         # hermanos â†’ no permitido
+17,18         # primos lejanos â†’ permitido
+19,20         # sin parentesco â†’ permitido
+21,22         # hermanos â†’ no permitido
+23,24         # primos â†’ permitido (comparten abuelos pero fuera del lÃ­mite configurado)
+25,30         # ramas completamente distintas â†’ permitido
+8,11          # tÃ­o-sobrina â†’ no permitido
+12,11         # hermanos â†’ no permitido
+10,4          # hijo con ascendiente â†’ no permitido

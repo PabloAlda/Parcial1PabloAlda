@@ -1,0 +1,86 @@
+[
+    {
+        "persona_a": "Luis",
+        "persona_b": "Ana",
+        "estado": "OK",
+        "motivo": ""
+    },
+    {
+        "persona_a": "Carmen",
+        "persona_b": "Pedro",
+        "estado": "NO PERMITIDO",
+        "motivo": "Son hermanos (Carmen y Pedro)"
+    },
+    {
+        "persona_a": "Laura",
+        "persona_b": "Diego",
+        "estado": "NO PERMITIDO",
+        "motivo": "Son hermanos (Laura y Diego)"
+    },
+    {
+        "persona_a": "SofÃ­a",
+        "persona_b": "Marcos",
+        "estado": "NO PERMITIDO",
+        "motivo": "Son hermanos (SofÃ­a y Marcos)"
+    },
+    {
+        "persona_a": "TomÃ¡s",
+        "persona_b": "LucÃ­a",
+        "estado": "OK",
+        "motivo": ""
+    },
+    {
+        "persona_a": "Mateo",
+        "persona_b": "Valeria",
+        "estado": "NO PERMITIDO",
+        "motivo": "Son hermanos (Mateo y Valeria)"
+    },
+    {
+        "persona_a": "MartÃ­n",
+        "persona_b": "Clara",
+        "estado": "OK",
+        "motivo": ""
+    },
+    {
+        "persona_a": "Pablo",
+        "persona_b": "Elena",
+        "estado": "OK",
+        "motivo": ""
+    },
+    {
+        "persona_a": "AndrÃ©s",
+        "persona_b": "Isabel",
+        "estado": "NO PERMITIDO",
+        "motivo": "Son hermanos (AndrÃ©s y Isabel)"
+    },
+    {
+        "persona_a": "Noelia",
+        "persona_b": "AdriÃ¡n",
+        "estado": "NO PERMITIDO",
+        "motivo": "Son hermanos (Noelia y AdriÃ¡n)"
+    },
+    {
+        "persona_a": "Teresa",
+        "persona_b": "Ignacio",
+        "estado": "OK",
+        "motivo": ""
+    },
+    {
+        "persona_a": "RaÃºl",
+        "persona_b": "Julia",
+        "estado": "NO PERMITIDO",
+        "motivo": "Comparten ancestro en ≤ 2 generaciones: ['Luis', 'Ana', 'Carmen', 'Pedro']"
+    },
+    {
+        "persona_a": "Santiago",
+        "persona_b": "Julia",
+        "estado": "NO PERMITIDO",
+        "motivo": "Comparten ancestro en ≤ 2 generaciones: ['Pedro', 'Carmen', 'InÃ©s']"
+    },
+    {
+        "persona_a": "Marcos",
+        "persona_b": "Pedro",
+        "estado": "NO PERMITIDO",
+        "motivo": "Relación ascendiente/descendiente entre Marcos y Pedro"
+    }
+]

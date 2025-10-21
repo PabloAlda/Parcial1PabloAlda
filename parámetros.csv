@@ -1,0 +1,12 @@
+{
+  "max_generaciones": 2,
+  "motivos": {
+    "hermandad": "comparten uno o ambos progenitores",
+    "ascendencia": "uno desciende del otro",
+    "ancestro_comun": "comparten ancestro en ≤ 2 generaciones"
+  },
+  "acciones": {
+    "si_no_permitido": "marcar y reportar",
+    "si_ok": "confirmar unión"
+  }
+}
